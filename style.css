@@ -8,7 +8,7 @@ html {
 hr {
   border: 1.5px solid #E3963E;
   border-radius: 40px;
-  width: 475px;
+  width: 625px;
 }
 /* Styling for the page */
 body{
@@ -67,3 +67,4 @@ li a:hover {
 .active {
   background-color: #8d4004;
 }
+
