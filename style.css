@@ -1,70 +1,78 @@
-/* Styling for entire page */
+/* Styling for the entire page */
 html {
-  height: 100%;
-  width: 100%;
-  font-family: 'Times New Roman',serif, sans-serif, cursive;
+  height: 100%; 
+  width: 100%; 
+  font-family: 'Times New Roman', serif, sans-serif, cursive; 
 }
-/* Styling for the header */
+
+/* Styling for the horizontal rule (divider) */
 hr {
-  border: 1.5px solid #E3963E;
-  border-radius: 40px;
-  width: 625px;
-}
-/* Styling for the page */
-body{
-  background-color: #772D2A;
-  color: #E3963E;
+  border: 1.5px solid #E3963E; 
+  border-radius: 40px; 
+  width: 625px; 
 }
 
-img{
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
-  height: 492px;
-  width: 381px;
+/* Styling for the body of the page */
+body {
+  background-color: #772D2A; 
+  color: #E3963E; 
 }
 
-h1{
-  text-align: center;
-  color: #E3963E;
-  font-size: 40px;
+/* Styling for images on the page */
+img {
+  display: block; 
+  margin: 0 auto; 
+  margin-top: 20px; 
+  height: 492px; 
+  width: 381px; 
 }
 
-p{
-  text-align: center;
-  color: #E3963E;
-  font-size: 20px;
+/* Styling for the main heading (h1) */
+h1 {
+  text-align: center; 
+  color: #E3963E; 
+  font-size: 40px; 
 }
 
+/* Styling for paragraphs (p) */
+p {
+  text-align: center; 
+  color: #E3963E; 
+  font-size: 20px; 
+}
+
+/* Styling for the navigation bar */
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #772D2A;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  overflow: hidden; 
+  background-color: #772D2A; 
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
 }
 
+/* Styling for each list item in the navigation bar */
 li {
-  float: left;
+  float: left; 
 }
 
+/* Styling for the links in the navigation bar */
 li a {
-  display: block;
-  color: #E3963E;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  display: block; 
+  color: #E3963E; 
+  text-align: center; 
+  padding: 14px 16px; 
+  text-decoration: none; 
 }
 
-/* Change the link color on hover */
+/* Changes the link color on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #111; 
 }
 
+/* Styling for the active link in the navigation bar */
 .active {
-  background-color: #8d4004;
+  background-color: #8d4004; 
 }
-
